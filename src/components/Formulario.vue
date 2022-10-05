@@ -6,8 +6,6 @@ export default {
        urgente:false,
       proyectos:[],
       numeroProyectos:0,
-
-    
     }),
     methods: {
 
@@ -26,8 +24,6 @@ export default {
 
             };
             this.proyectos.push(proyecto);
-         
-
             this.proyecto="";
             this.tipo="";
             this.urgente=false;
